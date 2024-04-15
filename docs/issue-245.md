@@ -190,7 +190,7 @@ eSIM 是一块独立芯片，用来取代物理 SIM 卡。高通现在将其内�
 
 ![](https://cdn.beekka.com/blogimg/asset/202303/bg2023030601.webp)
 
-一个基于 Astro 的静态博客生成器，查看 [Demo](astro.yufengbiji.com)。（[@austin2035](https://github.com/ruanyf/weekly/issues/2967) 投稿）
+一个基于 Astro 的静态博客生成器，查看 [Demo](https://astro.yufengbiji.com)。（[@austin2035](https://github.com/ruanyf/weekly/issues/2967) 投稿）
 
 4、[nrm](https://github.com/Pana/nrm)
 

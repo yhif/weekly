@@ -276,7 +276,7 @@ Clojure 语言的在线教程。
 
 4、[《高性能 Go 代码工坊》中译](https://www.yuque.com/ksco/uiondt)
 
-[原文](%EF%BC%9Ahttps://dave.cheney.net/high-performance-go-workshop/dotgo-paris.html)是深入研究 Go 应用性能提升的英语系列文章，这里是中译。（@[hznuksco](https://github.com/ruanyf/weekly/issues/905) 投稿）
+[原文](https://dave.cheney.net/high-performance-go-workshop/dotgo-paris.html)是深入研究 Go 应用性能提升的英语系列文章，这里是中译。（@[hznuksco](https://github.com/ruanyf/weekly/issues/905) 投稿）
 
 5、[Haskell 语言48小时教程：如何写一个 Scheme 语言解析器](https://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)（英文）
 
