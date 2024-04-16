@@ -12,7 +12,12 @@ export default defineConfig({
     ],
 
     search: {
-      provider: 'local'
+      provider: 'algolia',
+      options: {
+        appId: 'FSB1P587IZ',
+        apiKey: 'c8f4e2822367263b40f86af42f8c2dc1',
+        indexName: 'weekly-xi'
+      }
     },
 
     sidebar: [
