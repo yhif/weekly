@@ -14,9 +14,10 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: 'FSB1P587IZ',
-        apiKey: 'c8f4e2822367263b40f86af42f8c2dc1',
-        indexName: 'weekly-xi'
+        appId: '906HPV4HX0',
+        apiKey: '00b839bd8061afc004237baa2cd3ba39',
+        indexName: 'weekly',
+        debug: false
       }
     },
 
