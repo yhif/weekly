@@ -14,8 +14,8 @@ hero:
 features:
   - title: VitePress 驱动支持
     details: 由 VitePress 静态站点生成器驱动
-  - title: MiniSearch 搜索支持
-    details: MiniSearch 支持使用浏览器内索引进行模糊全文搜索
+  - title: DocSearch X Algolia 搜索支持
+    details: DocSearch 支持使用浏览器内索引进行模糊全文搜索
   - title: 流畅访问
     details: 静态 HTML 实现快速的页面初次加载
 ---
