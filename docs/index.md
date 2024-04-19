@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 最新一期
-      link: /issue-296.md
+      link: /issue-297.md
 
 features:
   - title: VitePress 驱动支持
