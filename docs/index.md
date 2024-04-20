@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "阮一峰博客周刊归档"
-  text: "阮一峰博客周刊归档，VitePress 驱动，DocSearch X Algolia 全文检索驱动"
+  text: "由 VitePress 驱动，DocSearch X Algolia 全文检索驱动"
   tagline: 阮一峰博客周刊归档，版权归原博主所有
   actions:
     - theme: brand
