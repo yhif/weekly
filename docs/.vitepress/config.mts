@@ -4,6 +4,26 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "阮一峰博客周刊归档",
   description: "阮一峰博客周刊归档，由 VitePress 驱动，DocSearch X Algolia 全文检索驱动",
+
+  sitemap: {
+      hostname: 'https://weekly.genaiprism.site'
+    },
+
+  head: [
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-EP0Z5X8E75' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EP0Z5X8E75');`
+    ]
+  ],
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -20,25 +40,6 @@ export default defineConfig({
         debug: false
       }
     },
-
-    sitemap: {
-      hostname: 'https://weekly.genaiprism.site'
-    },
-
-    head: [
-      [
-        'script',
-        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-EP0Z5X8E75' }
-      ],
-      [
-        'script',
-        {},
-        `window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-EP0Z5X8E75');`
-      ]
-    ],
 
     sidebar: [
       {
