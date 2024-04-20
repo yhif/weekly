@@ -8,7 +8,7 @@ hero:
   tagline: 阮一峰博客周刊归档，版权归原博主所有
   actions:
     - theme: brand
-      text: 归档
+      text: 周刊归档
       link: /archive.md
     - theme: alt
       text: 阮一峰博客周刊

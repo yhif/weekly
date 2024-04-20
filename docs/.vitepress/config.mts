@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "周刊归档",
-  description: "周刊归档站点",
+  title: "阮一峰博客周刊归档",
+  description: "阮一峰博客周刊归档，由 VitePress 驱动，DocSearch X Algolia 全文检索驱动",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '归档', link: '/archive.md' }
+      { text: '周刊归档', link: '/archive.md' }
     ],
 
     search: {
