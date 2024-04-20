@@ -1,14 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "阮一峰博客周刊归档",
-  description: "阮一峰博客周刊归档，由 VitePress 驱动，DocSearch X Algolia 全文检索驱动",
-
-  sitemap: {
-      hostname: 'https://weekly.genaiprism.site'
-    },
-
+export default {
   head: [
     [
       'script',
@@ -22,8 +14,18 @@ export default defineConfig({
       gtag('js', new Date());
       gtag('config', 'G-EP0Z5X8E75');`
     ]
-  ],
-  
+  ]
+}
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: "阮一峰博客周刊归档",
+  description: "阮一峰博客周刊归档，由 VitePress 驱动，DocSearch X Algolia 全文检索驱动",
+
+  sitemap: {
+      hostname: 'https://weekly.genaiprism.site'
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
