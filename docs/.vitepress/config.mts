@@ -21,6 +21,25 @@ export default defineConfig({
       }
     },
 
+    sitemap: {
+      hostname: 'https://weekly.genaiprism.site'
+    },
+
+    head: [
+      [
+        'script',
+        { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-EP0Z5X8E75' }
+      ],
+      [
+        'script',
+        {},
+        `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-EP0Z5X8E75');`
+      ]
+    ],
+
     sidebar: [
       {
         text: '2024年四月',
@@ -758,7 +777,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ruanyf/weekly' }
+      { icon: 'github', link: 'https://github.com/yhif/weekly' }
     ]
   }
 })
