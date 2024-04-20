@@ -3,13 +3,16 @@
 layout: home
 
 hero:
-  name: "周刊归档"
-  text: "周刊归档站点"
+  name: "阮一峰博客周刊归档"
+  text: "阮一峰博客周刊归档"
   tagline: 阮一峰博客周刊归档，版权归原博主所有
   actions:
     - theme: brand
-      text: 最新一期
-      link: /issue-297.md
+      text: 归档
+      link: /archive.md
+    - theme: alt
+      text: 阮一峰博客周刊
+      link: https://www.ruanyifeng.com/blog/weekly/
 
 features:
   - title: VitePress 驱动支持
