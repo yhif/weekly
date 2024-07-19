@@ -45,6 +45,8 @@ export default defineConfig({
       {
         text: '2024年七月',
         items: [
+          { text: '周刊第 309 期', link: '/issue-309.md' },
+          { text: '周刊第 308 期', link: '/issue-308.md' },
           { text: '周刊第 307 期', link: '/issue-307.md' },
         ]
       },
