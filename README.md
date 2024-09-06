@@ -4,7 +4,7 @@
 
 欢迎投稿，推荐或自荐文章/软件/资源，请[提交 issue](https://github.com/ruanyf/weekly/issues) 。
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/4911)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/5090)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
 
 ## 如何搜索
 
@@ -27,8 +27,15 @@ $ grep -nri css docs | cat --number
 ```
 ## 2024
 
+**九月**
+
+- 第 316 期：[你一生的故事](docs/issue-316.md)
+
 **八月**
 
+- 第 315 期：[一份谷歌离职报告](docs/issue-315.md)
+- 第 314 期：[《黑神话：悟空》可以产业化吗？](docs/issue-314.md)
+- 第 313 期：[如果新加坡没有空调](docs/issue-313.md)
 - 第 312 期：[从英特尔看“美国制造”](docs/issue-312.md)
 - 第 311 期：[低利率与长期项目](docs/issue-311.md)
 
