@@ -47,8 +47,17 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: '2024年九月',
+        items: [
+          { text: '周刊第 316 期', link: '/issue-316.md' },
+        ]
+      },
+      {
         text: '2024年八月',
         items: [
+          { text: '周刊第 315 期', link: '/issue-315.md' },
+          { text: '周刊第 314 期', link: '/issue-314.md' },
+          { text: '周刊第 313 期', link: '/issue-313.md' },
           { text: '周刊第 312 期', link: '/issue-312.md' },
           { text: '周刊第 311 期', link: '/issue-311.md' },
         ]
